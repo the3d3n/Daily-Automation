@@ -10,3 +10,7 @@ In this script I have pulled a docker image because the current version never st
 sudo docker pull adarnimrod/masscan 
 ```
 execute the above command before running the script
+
+```
+chmod +x masscan_nmap.sh; ./masscan_nmap.sh {ip_address}
+```
